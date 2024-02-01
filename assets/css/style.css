@@ -2,14 +2,6 @@
   #main.css
 \*-----------------------------------*/
 
-/**
- * copyright 2022 codewithsadee
- */
-
-
-
-
-
 /*-----------------------------------*\
   #CUSTOM PROPERTY
 \*-----------------------------------*/
@@ -274,12 +266,14 @@ body.nav-active { overflow: hidden; }
   padding-block: 20px;
   box-shadow: var(--shadow-1);
   z-index: 4;
+  color: white;
 }
 
 .header.active {
   background-color: var(--white);
   position: fixed;
   animation: slideIn 0.5s ease forwards;
+  color: black;
 }
 
 @keyframes slideIn {
@@ -293,9 +287,6 @@ body.nav-active { overflow: hidden; }
   align-items: center;
   gap: 16px;
 }
-
-.header.active .logo-light,
-.header .logo-dark { display: none; }
 
 .header .logo-light,
 .header.active .logo-dark { display: block; }
